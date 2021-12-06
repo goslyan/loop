@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="section-wide section_header">
+    <section class="section-wide section section_header">
         <div class="header_nav_container">
             <nav class="header_nav"><a href="#" class="header_link with_arrow">Для мужчин</a></nav>
             <nav class="header_nav"><a href="#" class="header_link with_arrow">Для женщин</a></nav>
@@ -20,10 +20,10 @@
                 <img src="./img/logo.svg" alt="Лого" class="logo">
                 <p class="logo_text">The loop</p>
             </div>
-            <a href="#" class="header_link">Оплата</a>
-            <a href="#" class="header_link">Доставка</a>
+            <a href="#" class="header_link payment">Оплата</a>
+            <a href="#" class="header_link delivery">Доставка</a>
             <div class="cart">
-                <img src="./img/cart.png" alt="Корзина" class="cart_img">
+                <a class="cart_button"><img src="./img/cart.png" alt="Корзина" class="cart_img"></a>
                 <div class="cart-righter">
                     <img src="./img/cart_righter.png" alt="Что-то правее корзины" class="cart_img cart-righter">
                 </div>
@@ -132,7 +132,7 @@
                 <p class="model_name">Коктейльное платье</p>
                 <p class="model_price">₽ 40 000</p>
             </div>
-            <div class="model_card">
+            <div class="model_card third_model-card">
                 <img src="./img/womanmodel.png" alt="Rich Woman Moment" class="model_img">
                 <img src="./img/border.svg" alt="" class="ramka">
                 <p class="model_name">Коктейльное платье</p>
@@ -153,8 +153,10 @@
     <section class="section_subscription">
         <div class="subscription_container">
             <h2 class="discounts-and-gifts_text">Получайте скидки и подарки</h2>
-            <input type="email" class="email_input" name="e-mail" id="email" placeholder="Ваш e-mail">
-            <button class="button button_input"><a href="#" class="collection_link  model_link">Подписаться</a></button>
+            <div class="gifts_input">
+                <input type="email" class="email_input" name="e-mail" id="email" placeholder="Ваш e-mail">
+                <button class="button button_input"><a href="#" class="collection_link  model_link">Подписаться</a></button>
+            </div>
         </div>
     </section>
     <!-- /.section_subscription -->
@@ -173,7 +175,7 @@
                 <p class="model_name">Коктейльное платье</p>
                 <p class="model_price">₽ 40 000</p>
             </div>
-            <div class="model_card">
+            <div class="model_card third_model-card">
                 <img src="./img/womanmodel.png" alt="Rich Woman Moment" class="model_img">
                 <img src="./img/border.svg" alt="" class="ramka">
                 <p class="model_name">Коктейльное платье</p>
@@ -202,29 +204,29 @@
             </div>
             <div class="main_links">
                 <p class="main_text">Основные ссылки</a></p>
-                <p class="secondary_text"><a href="#" class="link">О компании</a></p>
-                <p class="secondary_text"><a href="#" class="link">Каталог</a></p>
-                <p class="secondary_text"><a href="#" class="link">Доставка</a></p>
-                <p class="secondary_text"><a href="#" class="link">Оплата</a></p>
+                <p class="secondary_text"><a href="#" class="link footer_link">О компании</a></p>
+                <p class="secondary_text"><a href="#" class="link footer_link">Каталог</a></p>
+                <p class="secondary_text"><a href="#" class="link footer_link">Доставка</a></p>
+                <p class="secondary_text"><a href="#" class="link footer_link">Оплата</a></p>
             </div>
             <div class="categories">
                 <p class="main_text"></a>Категории</p>
-                <p class="secondary_text"><a href="#" class="category_link">Мужская одежда</a></p>
-                <p class="secondary_text"><a href="#" class="category_link">Женская одежда</a></p>
-                <p class="secondary_text"><a href="#" class="category_link">Детская одежда</a></p>
-                <p class="secondary_text"><a href="#" class="category_link">Для животных</a></p>
+                <p class="secondary_text"><a href="#" class="category_link footer_link">Мужская одежда</a></p>
+                <p class="secondary_text"><a href="#" class="category_link footer_link">Женская одежда</a></p>
+                <p class="secondary_text"><a href="#" class="category_link footer_link">Детская одежда</a></p>
+                <p class="secondary_text"><a href="#" class="category_link footer_link">Для животных</a></p>
             </div>
             <div class="useful_links">
                 <p class="main_text"></a>Полезные ссылки</p>
-                <p class="secondary_text"><a href="#" class="useful_link">Таблица размеров</a></p>
-                <p class="secondary_text"><a href="#" class="useful_link">Блог о моде</a></p>
-                <p class="secondary_text"><a href="#" class="useful_link">Наша миссия</a></p>
+                <p class="secondary_text"><a href="#" class="useful_link footer_link">Таблица размеров</a></p>
+                <p class="secondary_text"><a href="#" class="useful_link footer_link">Блог о моде</a></p>
+                <p class="secondary_text"><a href="#" class="useful_link footer_link">Наша миссия</a></p>
             </div>
             <div class="socials">
                 <p class="main_text"></a>Соц Сети</p>
-                <p class="secondary_text"><a href="#" class="useful_link"><img src="./img/vk.png" alt="Павел Дуров" class="social-logo">VK.com</a></p>
-                <p class="secondary_text"><a href="#" class="useful_link"><a href="#" class="useful_link"><img src="./img/facebook.png" alt="Фэйсбук" class="social-logo"> Facebook</a></p>
-                <p class="secondary_text"><a href="#" class="useful_link"><a href="#" class="useful_link"><img src="./img/inst.png" alt="Инстаграм" class="social-logo"> Instagram</a></p>
+                <p class="secondary_text soc_imgs"><a href="#" class="useful_link footer_link"><img src="./img/vk.png" alt="Павел Дуров" class="social-logo">VK.com</a></p>
+                <p class="secondary_text soc_imgs"><a href="#" class="useful_link footer_link"><a href="#" class="useful_link footer_link"><img src="./img/facebook.png" alt="Фэйсбук" class="social-logo"> Facebook</a></p>
+                <p class="secondary_text soc_imgs"><a href="#" class="useful_link footer_link"><a href="#" class="useful_link footer_link"><img src="./img/inst.png" alt="Инстаграм" class="social-logo"> Instagram</a></p>
             </div>
         </section>
         <!-- /.section_footer footer_upper -->
