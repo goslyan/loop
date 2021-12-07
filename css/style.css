@@ -651,6 +651,7 @@ a {
         padding-right: 3%;
         padding-left: 3%;
     }
+}
 
 @media (max-width: 1130px) {
     .header_nav_container {
